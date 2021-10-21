@@ -1,0 +1,101 @@
+/* Раскладка */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.container {
+    height: 100%;
+}
+
+.container {
+    width: 950px;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+.content {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
+}
+
+footer {
+    height: 80px;
+    margin-top: -80px;
+}
+
+.rightSide {
+    width: 200px;
+    float: right;
+}
+
+/* Header */
+header {
+    padding: 1em;
+    color: white;
+    text-align: center;
+    background-image: radial-gradient(at top right, #0012FF, #7599FF);;
+}
+
+.title {
+    font-size: 250%;
+}
+
+.subtitle {
+    font-size: 180%;
+}
+
+/* Подвал */
+footer {
+    background-color: #3C80C2;
+}
+
+
+/* Главное меню */
+nav {
+    padding: .5em;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+    background-color: #3C80C2;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li:not(:last-child) {
+    margin-right: .5em;
+}
+
+nav li:not(:last-child)::after {
+    content: "|";
+    margin-left: .5em;
+}
+
+nav a {
+    color: white;
+}
+
+/* Навигация */
+aside {
+    padding: 1em;
+    font-size: 140%;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li:not(:last-child) {
+    margin-bottom: .2em;
+}
+
+nav a, aside a {
+    text-decoration: none;
+}
