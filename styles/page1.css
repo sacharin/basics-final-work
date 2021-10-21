@@ -1,0 +1,34 @@
+/* Навигация */
+.rightSide {
+    font-size: 120%;
+    padding: 0;
+}
+
+.rightSide ul {
+    list-style: none;
+}
+
+.rightSide li:not(:last-child) {
+    margin-bottom: .2em;
+}
+
+.rightSide a {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 769px) {
+    .rightSide {
+        width: 200px;
+        float: right;
+        padding: 1em;
+    }
+
+    main {
+        margin-right: 200px;
+        padding-top: 1.5em;
+    }
+}

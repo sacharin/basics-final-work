@@ -1,0 +1,71 @@
+/* Шапка */
+header {
+    padding: 1em;
+    color: white;
+    text-align: center;
+    background-image: radial-gradient(at top right, #0012FF, #7599FF);
+}
+
+.title {
+    font-size: 200%;
+}
+
+.subtitle {
+    font-size: 150%;
+}
+
+/* Контент */
+main {
+    padding: 1.5em;
+}
+
+h1 {
+    color: #670000;
+    text-align: center;
+    margin: 0;
+}
+
+/* Главное меню */
+nav {
+    padding: .5em;
+    text-align: center;
+    font-size: 110%;
+    color: white;
+    background-color: #3C80C2;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li:not(:last-child) {
+    margin-right: .5em;
+}
+
+nav li:not(:last-child)::after {
+    content: "|";
+    margin-left: .5em;
+}
+
+nav a {
+    color: white;
+}
+
+nav a.active {
+    text-decoration: none;
+}
+
+/* Подвал */
+footer {
+    color: white;
+    background-color: #3C80C2;
+}
+
+footer p {
+    margin: .2em;
+}

@@ -1,0 +1,35 @@
+table {
+    margin: 1em auto;
+    width: 100%;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.label {
+    display: none;
+    font-weight: bolder;
+    text-align: right;
+    vertical-align: top;
+}
+
+input[type="text"], textarea {
+    font-size: 110%;
+    max-width: 98%;
+    width: 98%;
+}
+
+@media screen and (min-width: 769px) {
+    table {
+        width: 75%;
+    }
+
+    label {
+        display: none;
+    }
+
+    .label {
+        display: table-cell;
+    }
+}
