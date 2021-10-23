@@ -1,0 +1,9 @@
+.lefting {
+    float: left;
+    margin: 0 16px 8px 0; /* Отступы вокруг картинки */
+    max-width: 100%;
+}
+
+h1 {
+    color: #4D4D4D;
+}
